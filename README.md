@@ -3,4 +3,22 @@ Node.js Login and Registration System with PostgreSQL Database | Login, Logout, 
 
 
 <img src="documentos.png" alt="Ejemplo del módulo de documentos" width="200" height="300">
-
+documento
+  ├── config
+  │   └── config.js
+  ├── controllers
+  │   ├── documento.controller.js
+  │   └── files.controller.js
+  ├── database
+  │   └── postgresdb.js
+  ├── middlewares
+  │   ├── authenticate-JWT.js
+  │   └── paginate.js
+  ├── node_modules
+  ├── routes
+  │   └── documento.routes.js
+  ├── utils
+  │   └── utils.js
+  ├── index.js
+  ├── package.json
+  └── package-lock.json
